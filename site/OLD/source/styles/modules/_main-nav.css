@@ -1,0 +1,51 @@
+/***  START Main Nav  ***/
+.main-nav {
+
+
+	ul {
+		display: table;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	li {
+		display: inline-block;
+		list-style: none;
+		padding-right: 7px;
+
+		@mixin forMed {
+			float: $floatNavLinks;
+			padding: 23px 0px 25px;
+		}
+	}
+
+	a {
+		color: $lightDarkColor;
+		display: block;
+		font-size: 1rem;
+		font-weight: 600;
+		padding: 30px 20px;
+		text-decoration: none;
+		text-transform: uppercase;
+
+
+		&:hover {
+			background-image: linear-gradient(to bottom, #fb6714, #f31f06);
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+			color: $darkLightColor;
+		}
+
+		@mixin forMed {
+			font-size: 1.125rem;
+
+			&.current-list-item {
+				background-image: linear-gradient(to bottom, #fb6714, #f31f06);
+				border-bottom-left-radius: 5px;
+				border-bottom-right-radius: 5px;
+				color: $darkLightColor;
+			}
+		}
+	}
+}
+/***  END Main Nav  ***/

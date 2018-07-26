@@ -1,49 +1,36 @@
 /***  START Main Header  ***/
 .main-header {
-	padding: 10px 0;
-	position: absolute;  
-	transition: background-color .3s ease-out;
-	width: 100%;
-	z-index: 10;
 
+	position: absolute;
+	z-index: 20;
 
 	&--showMenu {
 		background-color: rgba($minorColor, .55);
 	}
 
-
-	@mixin forMed {
-		background-color: rgba($mainColor, .35);
-		margin-bottom: 25px;
-		position: relative;  /* fixed */
-
-		&--sticky {
-			background-color: rgba($mainColor, .75);
-		}
-	}
-
-	&__logo {
-		background-color: $mainColor;
-		left: 15%;
-		padding: 40px 30px;
-		position: absolute;
-		top: 0;
-		transform: translateX(-50%) scale(.8);
-		transform-origin: 50% 0;
-		transition: transform .3s ease-out;
+	&__menu-content {
+		opacity: 0;
+		position: relative;
+		text-align: center;
+		transform: scale(1.2);
+		transition: all .3s ease-out;
+		z-index: -10;
 
 		@mixin forMed {
-			left: auto;
-			transform: translateX(0);
-
-			.main-header--sticky & {
-				transform: scale(.555);
-			}
+			margin: 0 auto;
+			opacity: 1;
+			position: absolute;
+			top: 205px;
+			transform: scale(1);
+		    width: 100%;
+			z-index: 1;
 		}
-	}
 
-	&__btn-contact {
-			float: $floatMainNav;
+		&--showMenu {
+			opacity: 1;
+			transform: scale(1);
+			z-index: 1;
+		}
 	}
 
 	&__menu-icon {
@@ -100,29 +87,6 @@
 
 		&::after {
 			transform: rotate(-45deg) scaleX(1.25) translateY(1px);
-		}
-	}
-
-	&__menu-content {
-		opacity: 0;
-		padding-top: 70px;
-		position: relative;
-		text-align: center;
-		transform: scale(1.2);
-		transition: all .3s ease-out;
-		z-index: -10;
-
-		@mixin forMed {
-			opacity: 1;
-			padding-top: 0;
-			transform: scale(1);
-			z-index: 1;
-		}
-
-		&--showMenu {
-			opacity: 1;
-			transform: scale(1);
-			z-index: 1;
 		}
 	}
 }

@@ -1,0 +1,65 @@
+.orange-box {
+	background-color: rgba(#df3909, .37);
+	border-radius: 5px;
+	box-sizing: border-box;
+	color: #fff;
+	padding: 20px;
+	position: absolute;
+
+
+	width: 255px;
+	height: 335px;
+
+	&__box1 {
+		left: 0px;
+		top: 635px;
+	}
+
+	&__box2 {
+		left: 255px;
+		top: 635px;
+	}
+
+	&__box3 {
+		left: 510px;
+		top: 635px;
+	}
+
+	&__box4 {
+		left: 150px;
+		top: 735px;
+	}
+
+	&__box5 {
+		left: 450px;
+		top: 735px;
+	}
+
+	h1 {
+		font-weight: 300;
+		font-size: 1.875rem;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+	}
+
+	h2 {
+		font-family: 'Lato';
+		color: #a2a2a2;
+		font-size: 1.25rem;
+		font-style: italic;
+		font-weight: 700;
+		text-decoration: underline;
+	}
+
+	p {
+		font-family: 'Lato';
+		font-size: 0.8125rem;
+		line-height: 1.4;
+
+		strong {
+			color: #a2a2a2;
+			font-weight: 700;
+		}
+
+	}
+
+}	

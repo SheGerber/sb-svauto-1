@@ -27,7 +27,7 @@ gulp.task('copyOtherFiles', ['delLiveFolder'], function() {
 	]
 
 	return gulp.src(dirsToCopy)
-		.pipe(gulp.dest('./live/src'));
+		.pipe(gulp.dest('./live'));
 });
 
 
@@ -38,7 +38,7 @@ gulp.task('optimizeImgs', ['delLiveFolder'], function() {
 			interlaced: true,
 			multipass: true
 		}))
-		.pipe(gulp.dest("./live/src/images"));
+		.pipe(gulp.dest("./live/images"));
 });
 
 gulp.task('useminTrig', ['delLiveFolder'], function() {

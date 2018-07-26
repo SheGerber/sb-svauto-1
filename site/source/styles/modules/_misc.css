@@ -1,0 +1,36 @@
+.chad {
+	float: left;
+	padding: 20px 20px 20px 0;
+
+	img {
+		border-radius: 10px;
+	}
+}
+
+.lexus {
+	float: left;
+	padding: 20px 0;
+
+	img {
+			border-radius: 20px;
+		}
+}
+
+.btm-text {
+	float: left;
+	padding-top: 25px;
+	width: 55%;
+
+	p {
+		color: #a2a2a2;
+		font-family: 'Lato';
+		font-size: 0.8125rem;
+		font-weight: 200;
+		line-height: 1.4;
+	}
+
+	& .white {
+		color: #fff;
+	}	
+
+}

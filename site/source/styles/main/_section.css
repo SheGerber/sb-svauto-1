@@ -1,3 +1,6 @@
 .section {
 
+	&--sponsors {
+		float: right;
+	}
 }

@@ -1,0 +1,104 @@
+.sponsor {
+
+		position: absolute;
+		width: 100%;
+
+
+	&--carcare-one {
+		left: 466px;
+		top: 1550px;
+	}
+
+	&--check-engine {
+		left: 966px;
+		top: 610px;
+	}
+
+	&--hankook {
+		left: 606px;
+		top: 1300px;
+
+		img {
+			border-radius: 5px;
+		}
+	}	
+
+	&--hankook-tires {
+		left: 686px;
+		top: 1400px;
+
+		img {
+			border-radius: 10px;
+		}
+	}
+
+	&--interstate {
+		left: 966px;
+		top: 230px;
+
+		img {
+			border-radius: 7px;
+		}
+	}
+
+	&--jasper {
+		left: 966px;
+		top: 20px;
+	}
+
+	&--michelin {
+		left: 70px;
+		top: 595px;
+		transform: scaleX(1.5);
+	}
+
+	&--monroe {
+		left: 966px;
+		top: 130px;
+	}
+
+	&--mopar {
+		left: 966px;
+		top: 1050px;
+
+		img {
+			border-radius: 10px;
+		}
+	}
+
+	&--synchrony {
+		left: -115px;
+		top: 250px;
+	}
+
+	&--uhaul {
+		left: 966px;
+		top: 850px;
+
+		img {
+			border-radius: 15px;
+		}
+	}
+
+	&--uhaul-bg {
+		left: 966px;
+		top: 1400px;
+	}
+
+	&--wagner {
+		left: 966px;
+		top: 1275px;
+	}
+
+
+	&-- {
+		left: 966px;
+		top: px;
+	}
+
+	&-- {
+		left: 966px;
+		top: px;
+	}
+
+}

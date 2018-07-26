@@ -1,0 +1,14 @@
+.social {
+	
+	&--youtube-video {
+		left: 966px;
+		position: absolute;
+		top: 385px;
+	}
+
+	&--youtube-video2 {
+		left: 966px;
+		position: absolute;
+		top: 385px;
+	}
+}
