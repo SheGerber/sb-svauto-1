@@ -24,6 +24,13 @@ gulp.task('copyOtherFiles', ['delLiveFolder'], function() {
 		// '!./site/source/scripts/**',
 		'!./site/temp',
 		'!./site/temp/**'
+
+
+
+		,'!./site/OLD/',
+		,'!./site/OLD/**',
+		 '!./site/srcx/',
+		 '!./site/srcx/**'
 	]
 
 	return gulp.src(dirsToCopy)
@@ -38,7 +45,7 @@ gulp.task('optimizeImgs', ['delLiveFolder'], function() {
 			interlaced: true,
 			multipass: true
 		}))
-		.pipe(gulp.dest("./live/images"));
+		.pipe(gulp.dest("./live/src/images"));
 });
 
 gulp.task('useminTrig', ['delLiveFolder'], function() {

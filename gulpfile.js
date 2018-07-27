@@ -4,11 +4,11 @@ require('./gulp/tasks/scripts');
 require('./gulp/tasks/modernizr');
 require('./gulp/tasks/build');
 
+/***  FOR GOLIVE -- SHE
 
 require('./gulp/tasks/sprites');
-
-/***  FOR GOLIVE -- SHE
-require('./gulp/tasks/zLIVEsprites');
 ***/
+
+require('./gulp/tasks/zLIVEsprites');
 
 
